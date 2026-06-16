@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+    background:url("../img/spa.avif");
+    background-size:cover;
+}
+    .roles{
+    display:flex;
+    gap:20px;
+}
+
+.roles{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    width:150px;
+    padding:20px;
+    background:#7d1247;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+ header>{
+           position: relative;
+           width: 100%;
+        }
+        header img{
+            width: 100%;
+            height: auto;
+        }
+        

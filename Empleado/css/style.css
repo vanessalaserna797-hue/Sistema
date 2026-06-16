@@ -1,0 +1,111 @@
+html{
+    box-sizing: border-box;
+    
+    background-size: cover;
+}
+
+:root{
+    --primary-color:#ffffff;
+    --secundary-color:#f5f7fa;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav{
+    background: #741b47;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button{
+    transition: .4s;
+}
+
+
+button:hover{
+    background-color: #9fc5f8;
+}
+
+#hero{
+    width: 100%;
+    background: url("../img/salon.avif");
+    background-size:cover;
+    padding: 200px 0 200px;
+}
+
+#hero h1{
+    margin-bottom: 10px;
+    color:black;
+    font-size: 25;
+}
+
+#hero p{
+    margin-bottom: 10px;
+    color:#333333;
+    font-size:15;
+}
+
+#hero button{
+    margin-bottom: 10px;
+    font-size: 15;
+}
+
+#hero form{
+    margin-bottom: 10px;
+}
+
+#hero label{
+    margin-bottom: 10px;
+    color:#333333;
+    font-size:15;
+}
+
+#hero input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#hero .btn-primary{
+    background:#ffffff;
+    color: black;
+    padding: 10px 35px;
+}
+
+#hero .btn-secundary{
+    background:#741b47;
+    color: black;
+    padding: 10px 35px;
+}
+
+#hero .btn-primary:nth-child(4){
+    background: #9fc5f8;
+    color:black;
+    padding: 10px 35px;
+}
+
+.boton-rol {
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  text-decoration: none; /* Quita el subrayado de enlace */
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.boton-rol.activo {
+  background-color:#9fc5f8; 
+  color: black;              
+  border-color:#9fc5f8;
+}
